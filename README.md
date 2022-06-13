@@ -56,3 +56,6 @@ Run it:
 ```sh
 make run
 ```
+
+It is a fork of Go Chain / rpc-proxy.<br>
+Official rpc-proxy Repository: https://github.com/gochain/rpc-proxy<br>
