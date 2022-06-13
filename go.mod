@@ -1,4 +1,4 @@
-module github.com/gochain-io/rpc-proxy
+module github.com/xpaymentsorg/rpc-proxy
 
 go 1.17
 
