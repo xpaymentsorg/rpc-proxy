@@ -345,7 +345,7 @@ type homePageData struct {
 var homePageTmpl = template.Must(template.New("").Parse(`<!DOCTYPE html>
 <html lang="en">
 	<head>
-		<title>GoChain RPC Proxy</title>
+		<title>xPayments RPC Proxy</title>
 		<style>
 			body {
 				font-family: 'Lato', sans-serif;
@@ -360,9 +360,9 @@ var homePageTmpl = template.Must(template.New("").Parse(`<!DOCTYPE html>
 		<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700&amp;subset=all" rel="stylesheet" type="text/css">
 	</head>
 	<body>
-		<h1>GoChain RPC Proxy</h1>
+		<h1>xPayments RPC Proxy</h1>
 
-		<p>This is an RPC endpoint for <a href="https://gochain.io" rel="nofollow">GoChain</a>. It provides access to a limited subset of services. Rate limits apply.</p>
+		<p>This is an RPC endpoint for <a href="https://xps.network" rel="nofollow">xPayments</a>. It provides access to a limited subset of services. Rate limits apply.</p>
 
 		<h2>Rate Limit</h2>
 
@@ -390,7 +390,7 @@ type exampleData struct {
 var exampleTmpl = template.Must(template.New("").Parse(`<!DOCTYPE html>
 <html lang="en">
 	<head>
-		<title>GoChain RPC Proxy</title>
+		<title>xPayments RPC Proxy</title>
 		<style>
 			body {
 				font-family: 'Lato', sans-serif;
@@ -405,7 +405,7 @@ var exampleTmpl = template.Must(template.New("").Parse(`<!DOCTYPE html>
 		<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700&amp;subset=all" rel="stylesheet" type="text/css">
 	</head>
 	<body>
-		<h1>GoChain RPC Proxy</h1>
+		<h1>xPayments RPC Proxy</h1>
 
 		<p>This is an example call for <code>{{.Method}}</code>.</p>
 
